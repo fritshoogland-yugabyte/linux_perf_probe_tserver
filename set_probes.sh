@@ -1,9 +1,10 @@
-TSERVER_EXEC=/opt/yugabyte/yugabyte-2.9.0.0/bin/yb-tserver
-TSERVER_LIBLOG=/opt/yugabyte/yugabyte-2.9.0.0/lib/yb/liblog.so
-TSERVER_LIBYB_DOCDB=/opt/yugabyte/yugabyte-2.9.0.0/lib/yb/libyb_docdb.so
-TSERVER_LIBCONSENSUS=/opt/yugabyte/yugabyte-2.9.0.0/lib/yb/libconsensus.so
-TSERVER_LIBTABLET=/opt/yugabyte/yugabyte-2.9.0.0/lib/yb/libtablet.so
-TSERVER_LIBRPC=/opt/yugabyte/yugabyte-2.9.0.0/lib/yb/libyrpc.so
+YB_HOME=/home/yugabyte/yb-software/yugabyte-2.7.2.0-b197-centos-x86_64
+TSERVER_EXEC=$YB_HOME/bin/yb-tserver
+TSERVER_LIBLOG=$YB_HOME/lib/yb/liblog.so
+TSERVER_LIBYB_DOCDB=$YB_HOME/lib/yb/libyb_docdb.so
+TSERVER_LIBCONSENSUS=$YB_HOME/lib/yb/libconsensus.so
+TSERVER_LIBTABLET=$YB_HOME/lib/yb/libtablet.so
+TSERVER_LIBRPC=$YB_HOME/lib/yb/libyrpc.so
 
 # 1-insert (rpc_tp_tabletserver)
 # ## doesn't work ## master function: yb::rpc::(anonymous namespace)::Worker::Execute
